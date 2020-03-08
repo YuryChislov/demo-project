@@ -61,7 +61,7 @@ You also can specify in the files above what test goups/classes you want to run 
    `@Test(groups = {"myTests"})`
     
    After finish execution delete "myTest" group.
-   **NOTE:** If the test has `dependsOnGroups` annotation it won't run before the specified group successfully complete
+**NOTE:** If the test has `dependsOnGroups` annotation it won't run before the specified group successfully complete
     
    Example:
    `@Test(groups = {"editEmployee", "mainPage"}, description = "Main page. Test Edit Employee from the list", dependsOnGroups = "createEmployee")` has **'dependsOnGroups = "createEmployee"'** and will be executed after test which belongs to group `createEmployee`

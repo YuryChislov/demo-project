@@ -4,13 +4,7 @@
     <list default="true" id="f6806a38-f79e-4906-8bda-a290b3f6f62c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Get_Started.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Get_Started.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/IEBrowserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/IEBrowserTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/corssBrowserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/corssBrowserTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/firefoxBrowserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/firefoxBrowserTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/tests/NotSuccessfulLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/tests/NotSuccessfulLogin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -62,8 +56,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/Get_Started.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="83" column="59" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="59" />
+            <state relative-caret-position="416">
+              <caret line="96" column="115" selection-start-line="96" selection-start-column="115" selection-end-line="96" selection-end-column="115" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/tests/EditEmployee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="145" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="145" />
             </state>
           </provider>
         </entry>
@@ -287,7 +290,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583652486890" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583653422512" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../1" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -404,7 +407,7 @@
       <updated>1583315498039</updated>
       <workItem from="1583315507299" duration="4667000" />
       <workItem from="1583321548710" duration="50302000" />
-      <workItem from="1583636720429" duration="13733000" />
+      <workItem from="1583636720429" duration="14637000" />
     </task>
     <task id="LOCAL-00001" summary="added README file">
       <created>1583649675934</created>
@@ -413,7 +416,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583649675935</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added README file">
+      <created>1583652565016</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583652565016</updated>
+    </task>
+    <task id="LOCAL-00003" summary="editing README file">
+      <created>1583652986996</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583652986996</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -449,7 +466,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68702000" />
+    <option name="totallyTimeSpent" value="69606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -494,7 +511,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added README file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added README file" />
+    <MESSAGE value="editing README file" />
+    <option name="LAST_COMMIT_MESSAGE" value="editing README file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_windows/laf.xml">
@@ -617,13 +635,6 @@
             <element signature="method#checkEntryNotExists#0;class#MainPage#0" />
             <element signature="method#checkMainPageUploaded#0;class#MainPage#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/tests/EditEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -826,10 +837,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/tests/EditEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="145" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/Get_Started.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="83" column="59" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="59" />
+        <state relative-caret-position="416">
+          <caret line="96" column="115" selection-start-line="96" selection-start-column="115" selection-end-line="96" selection-end-column="115" />
         </state>
       </provider>
     </entry>
