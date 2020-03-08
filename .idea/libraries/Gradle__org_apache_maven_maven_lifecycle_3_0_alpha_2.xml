@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven:maven-lifecycle:3.0-alpha-2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-lifecycle/3.0-alpha-2/d573d9c5e0b77db5f50250e9e16d1214816f8a99/maven-lifecycle-3.0-alpha-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-lifecycle/3.0-alpha-2/ac8d6fa3f443450f47582fdfdea2796b141eac55/maven-lifecycle-3.0-alpha-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

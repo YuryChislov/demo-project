@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.mercury:mercury-repo-virtual:1.0.0-alpha-2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.mercury/mercury-repo-virtual/1.0.0-alpha-2/73095892f9acee0260eccb21b97a0c3a339fd702/mercury-repo-virtual-1.0.0-alpha-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.mercury/mercury-repo-virtual/1.0.0-alpha-2/3f70bbdb29d2d6708831ac74ef14f88d46fb2569/mercury-repo-virtual-1.0.0-alpha-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

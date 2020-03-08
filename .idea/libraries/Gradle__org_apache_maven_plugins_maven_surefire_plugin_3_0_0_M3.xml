@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.plugins/maven-surefire-plugin/3.0.0-M3/5dffc9bc8c315c551769400d01d6f1f688bcabf1/maven-surefire-plugin-3.0.0-M3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.plugins/maven-surefire-plugin/3.0.0-M3/dfbeebaa96394bf0357eb8ce3ddcd4ba6f7b0eb8/maven-surefire-plugin-3.0.0-M3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

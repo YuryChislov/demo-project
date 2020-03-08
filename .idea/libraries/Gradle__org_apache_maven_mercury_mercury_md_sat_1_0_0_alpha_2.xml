@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.mercury:mercury-md-sat:1.0.0-alpha-2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.mercury/mercury-md-sat/1.0.0-alpha-2/f48614e3f52fde3de9e78986086afa97dbf97f8/mercury-md-sat-1.0.0-alpha-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.mercury/mercury-md-sat/1.0.0-alpha-2/75627713dc8b7f8703aefea0647830cbbd5978f/mercury-md-sat-1.0.0-alpha-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

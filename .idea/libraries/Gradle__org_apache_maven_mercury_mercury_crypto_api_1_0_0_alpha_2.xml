@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.mercury:mercury-crypto-api:1.0.0-alpha-2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.mercury/mercury-crypto-api/1.0.0-alpha-2/ff1864659e50f59dd4923f2420358764d0f9d18b/mercury-crypto-api-1.0.0-alpha-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.mercury/mercury-crypto-api/1.0.0-alpha-2/a25a793f12b77fa065b3994fd4013bc7e8009219/mercury-crypto-api-1.0.0-alpha-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+    <parameter name="site" value="http://cafetownsend-angular-rails.herokuapp.com/login"/>
+    <test name="IETest" enabled="true">
+        <parameter name="browser" value="ie"/>
+        <groups>
+            <define name="all">
+                <include name="login"/>
+                <include name="createEmployee"/>
+                <include name="editEmployee"/>
+                <include name="deleteEmployee"/>
+                <include name="mainPage"/>
+            </define>
+            <run>
+                <include name="all"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.mobiquity.testing.webautomation.tests.SuccessfulLogin"/>
+            <class name="com.mobiquity.testing.webautomation.tests.NotSuccessfulLogin"/>
+            <class name="com.mobiquity.testing.webautomation.tests.CreateEmployee"/>
+            <class name="com.mobiquity.testing.webautomation.tests.EditEmployee"/>
+            <class name="com.mobiquity.testing.webautomation.tests.DeleteEmployee"/>
+        </classes>
+    </test>
+</suite>
+
+
+
+
+

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.mercury:mercury-transport-api:1.0.0-alpha-2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.mercury/mercury-transport-api/1.0.0-alpha-2/43d9c24082d3ee917e8bc3dfecfa14960b3b3114/mercury-transport-api-1.0.0-alpha-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.mercury/mercury-transport-api/1.0.0-alpha-2/695f77c71a379542056071b7a8691514a7afed6a/mercury-transport-api-1.0.0-alpha-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

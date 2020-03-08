@@ -1,0 +1,1 @@
+{"uuid":"c45f46ed-5208-4172-ad93-fb7263d678b1","name":"Suite","start":1583592621534,"stop":1583592658325,"children":["a07828f7-f110-442a-b692-6dd7fa16431e"],"afters":[{"name":"Checks If browser console had a critical errors","status":"passed","stage":"finished","description":"Checks If browser console had a critical errors","start":1583592658315,"stop":1583592658324}]}

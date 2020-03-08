@@ -1,0 +1,4 @@
+chromeDriverBinaryPath=<Full Path to the your local installation of the Chrome Driver binary executable>
+internetExplorerDriverBinaryPath=<Full Path to your local installation of the IE Driver binary executable>
+fireFoxDriverBinaryPath=<Full Path to your local installation of the FF Driver binary executable>
+

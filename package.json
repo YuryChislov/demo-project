@@ -1,0 +1,22 @@
+{
+  "name": "automated-testing-gradle",
+  "version": "1.0.0",
+  "description": "1. Before you import, you need to make sure that in Intellij’s project defaults you have JDK 10/11 setup as an SDK properly.\r 2. Clean up your existing folder or create a new one for your project.\r 3. Start screen - checkout from Version Control - Git - Fill in the details.\r 4. When IJ asks you if you want to open the project say yes.\r 5. It should then instantly open and show you this message in the corner: \"Unlinked Gradle project? Import Gradle project\".\r 6. Clink import, a Window \"Import Module from Gradle\" opens. Tick boxes \"Use auto-import\", \"Create separate module per source set\" and click on \"Use default gradle wrapper\" radiobutton. In Gradle JVM box choose your JDK.\r 7. When you open any *java file in \"tests\" package, if it complains that there’s no ProjectSDK set. Click the link and fix it.\r 8. In the version control window in IJ you should now have the project with NO changes, NO added or deleted files etc. IF it shows any changes, do not proceed and do not check in files etc - then we need to have a look at your respective systems first",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cupid-media/automated-testing-gradle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cupid-media/automated-testing-gradle/issues"
+  },
+  "homepage": "https://github.com/cupid-media/automated-testing-gradle#readme",
+  "devDependencies": {
+    "@percy/agent": "^0.20.6"
+  }
+}

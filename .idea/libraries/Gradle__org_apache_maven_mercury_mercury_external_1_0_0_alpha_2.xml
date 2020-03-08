@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.mercury:mercury-external:1.0.0-alpha-2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.mercury/mercury-external/1.0.0-alpha-2/a6e7c5462116d8b821d516d98fa074ee7446a182/mercury-external-1.0.0-alpha-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.mercury/mercury-external/1.0.0-alpha-2/265cfda18dfeb0fa4ab5890f300ff96f77833df8/mercury-external-1.0.0-alpha-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

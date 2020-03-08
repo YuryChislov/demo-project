@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.surefire:surefire-logger-api:3.0.0-M3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.surefire/surefire-logger-api/3.0.0-M3/444d24503580e423697ac3064eaba3c264745dd0/surefire-logger-api-3.0.0-M3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.surefire/surefire-logger-api/3.0.0-M3/468f85d1f8ea908cbd02f15138e07ce427ffb002/surefire-logger-api-3.0.0-M3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

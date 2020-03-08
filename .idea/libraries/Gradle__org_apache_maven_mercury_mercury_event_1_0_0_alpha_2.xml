@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.mercury:mercury-event:1.0.0-alpha-2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.mercury/mercury-event/1.0.0-alpha-2/76aeb3a3f4ab62a14f61938b325221c74a44a268/mercury-event-1.0.0-alpha-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.mercury/mercury-event/1.0.0-alpha-2/4cb1d153fbf97c429e42adc9fdd90b255fe5305a/mercury-event-1.0.0-alpha-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
