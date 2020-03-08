@@ -58,11 +58,13 @@ You also can specify in the files above what test goups/classes you want to run 
    For execution specified test(s) include only `<include name = "myTest" />` and assign `myTest` group to this test(s) in `tests` package. 
     
    Example: 
-
    `@Test(groups = {"myTests"})`
     
    After finish execution delete "myTest" group.
-     **NOTE:** If the test has 'dependsOnGroups' annotation it won't run before the specified group successfully complete
+   **NOTE:** If the test has `dependsOnGroups` annotation it won't run before the specified group successfully complete
+    
+   Example:
+   `@Test(groups = {"editEmployee", "mainPage"}, description = "Main page. Test Edit Employee from the list", dependsOnGroups = "createEmployee")` has **'dependsOnGroups = "createEmployee"'** and will be executed after test which belongs to group `createEmployee`
     
    For execution all tests put in `<run>` tag `<include name="all">`
 
@@ -85,11 +87,11 @@ You also can specify in the files above what test goups/classes you want to run 
 
 ## Process to create Allure report
 
-1. Run Allure report creation: `./gradlew allureReport`
+1. Run Allure report creation: `gradlew allureReport`
     This will create test report information in the following directories:
     ```
     build/allure-results
     build/reports
     build/test-results
     ```
-2. Serve up the Allure report in a browser: `./gradlew allureServe`
+2. Serve up the Allure report in a browser: `gradlew allureServe` It will open the browser with the UI test report.
