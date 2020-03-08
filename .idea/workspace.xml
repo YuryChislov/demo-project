@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f6806a38-f79e-4906-8bda-a290b3f6f62c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Introduction .md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Introduction .md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/TestCases.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/TestCases.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -89,8 +89,8 @@
         <entry file="file://$PROJECT_DIR$/docs/Introduction .md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="293">
-                <caret line="50" column="143" selection-start-line="50" selection-start-column="143" selection-end-line="50" selection-end-column="143" />
+              <first_editor relative-caret-position="129">
+                <caret line="41" column="137" selection-start-line="41" selection-start-column="137" selection-end-line="41" selection-end-column="137" />
               </first_editor>
               <second_editor />
             </state>
@@ -101,8 +101,8 @@
         <entry file="file://$PROJECT_DIR$/docs/TestCases.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="901">
-                <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+              <first_editor relative-caret-position="255">
+                <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
               </first_editor>
               <second_editor />
             </state>
@@ -168,6 +168,7 @@
       <find>Example</find>
       <find>chrome</find>
       <find>http</find>
+      <find>rese</find>
     </findStrings>
     <replaceStrings>
       <replace>mobiquity</replace>
@@ -201,8 +202,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/corssBrowserTest.xml" />
         <option value="$PROJECT_DIR$/local.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/TestBase.java" />
-        <option value="$PROJECT_DIR$/docs/TestCases.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/docs/TestCases.md" />
         <option value="$PROJECT_DIR$/docs/Introduction .md" />
       </list>
     </option>
@@ -305,7 +306,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583665347934" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583666185723" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../1" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -417,7 +418,7 @@
       <workItem from="1583315507299" duration="4667000" />
       <workItem from="1583321548710" duration="50302000" />
       <workItem from="1583636720429" duration="23138000" />
-      <workItem from="1583662294602" duration="3032000" />
+      <workItem from="1583662294602" duration="3883000" />
     </task>
     <task id="LOCAL-00001" summary="added README file">
       <created>1583649675934</created>
@@ -496,7 +497,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583664994468</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="edited documentation">
+      <created>1583665346709</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583665346709</updated>
+    </task>
+    <task id="LOCAL-00013" summary="edited documentation">
+      <created>1583665528063</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583665528063</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -532,10 +547,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81139000" />
+    <option name="totallyTimeSpent" value="81990000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21946308" />
@@ -580,7 +595,8 @@
     <MESSAGE value="editing README file" />
     <MESSAGE value="deleted accidentally added local.properties file" />
     <MESSAGE value="added documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added documentation" />
+    <MESSAGE value="edited documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited documentation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_windows/laf.xml">
@@ -883,16 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/TestCases.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="901">
-            <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -930,11 +936,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/TestCases.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/Introduction .md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="293">
-            <caret line="50" column="143" selection-start-line="50" selection-start-column="143" selection-end-line="50" selection-end-column="143" />
+          <first_editor relative-caret-position="129">
+            <caret line="41" column="137" selection-start-line="41" selection-start-column="137" selection-end-line="41" selection-end-column="137" />
           </first_editor>
           <second_editor />
         </state>

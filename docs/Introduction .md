@@ -7,7 +7,7 @@
 
 ### Drive tests with Selenium webDriver
 
-In order to run tests on against website in this project I use Selenium webDriver. You can find out nore information about Selenium on their official website: https://www.selenium.dev/
+In order to run tests on against website in this project I use Selenium webDriver. You can find out more information about Selenium on their official website: https://www.selenium.dev/
 
 
 ### Organize Code with the Page Object Model
@@ -39,7 +39,7 @@ Also I created the method which allows to easily make the screenshots when requi
      
 
 ### Test cases
-Since I was limited in time when I was implementing this project, and I did not have enough documentation with the requirements, I used Research testing and a heuristic approach. I selected some of the most important functions in my opinion that are vital for this website, and created my own test for them:
+Since I was limited in time when I was implementing this project, and I did not have enough documentation with the requirements, I used Exploratory testing and a heuristic approach. I selected some of the most important functions in my opinion that are vital for this website, and created my own test for them:
 * Test successful login
 * Tst unsuccessful login
 * Test Create Employee

@@ -13,7 +13,7 @@
     * Very long incorrect password
     * All white space types
     * Attempt to inject SQL validation in password box. _Example:_ SELECT Password FROM Users WHERE Username = 'Luke'
-    * Attempt to inject query param in password box
+    * Attempt to inject query param in password box. _Example:_ http://cafetownsend-angular-rails.herokuapp.com/login/delete?name=file.txt;rm%20/
 * Step: click login button
 * Assertion: Check login unsuccessful
 
