@@ -11,6 +11,7 @@
                 <include name="editEmployee"/>
                 <include name="deleteEmployee"/>
                 <include name="mainPage"/>
+                <include name="myTests"/>
             </define>
             <run>
                 <include name="all"/>

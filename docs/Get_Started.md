@@ -2,26 +2,26 @@
 
 ## Requirements and Setup
 
-### Basic Setup from Intellij:
+### Basic Setup from Intellij
 
-##### To run auto-tests from this project the following is required:
+##### To run auto-tests from this project the following is required
 1. Java 10/11 has been installed in the machine you would like to run tests.
 2. JAVA_HOME is set on your machine. (Instruction for this: 'https://docs.oracle.com/cd/E19509-01/820-3208/inst_cli_jdk_javahome_t/')
-3. At least one of the following browsers are installed: Chrome, Internet Explorer, Firefox. Ideally to have installed all three. This would allow to run test in thee different browsers.
+3. At least one of the following browsers are installed: Chrome, Internet Explorer, Firefox. Ideally to have installed all three. This would allow to run test in three different browsers.
 
-#### To clone this repository using Intellij:
+#### To clone this repository using Intellij
 1. Before you import, you need to make sure that in Intellij’s project defaults you have JDK 10/11 setup as an SDK properly.
 2. Clean up your existing folder or create a new one for this project.
 3. File -> New -> Project from Version Control -> Git
-4. Specify this repository URL and specify the path where to clone this Project and click "clone"
+4. Specify this repository URL 'https://github.com/yury-chislov/demo-project' and specify the path where to clone this Project and click "clone"
 4. When Project is cloned IJ asks you if you want to open the project say yes.
 5. It should then instantly open and show you this message in the corner: "Unlinked Gradle project? Import Gradle project".
 6. Clink import, a Window "Import Module from Gradle" opens. Tick boxes "Use auto-import", "Create separate module per source set" and click on "Use default gradle wrapper" radiobutton. In Gradle JVM box choose your JDK.
 7. When you open any *java file in "tests" package, if it complains that there’s no ProjectSDK set. Click the link and fix it.
 8. In the version control window in IJ you should now have the project with NO changes, NO added or deleted files etc. IF it shows any changes, do not proceed and try to clone the repository to the new directory.
 
-####
-This option assumes that you are familiar with GitHub and git clone so just do as you will do normally and clone the https://github.com/.......... repository in your machine.
+#### To clone this repository using terminal:
+This option assumes that you are familiar with GitHub and git clone so just do as you will do normally and clone the 'https://github.com/yury-chislov/demo-project.git' repository in your machine.
 
 ### Downloading WebDrivers
 
@@ -32,76 +32,64 @@ This option assumes that you are familiar with GitHub and git clone so just do a
 
 - For testing with Firefox browser get geckodriver for your platform from: https://github.com/mozilla/geckodriver/releases . Do *NOT* commit this to the repository, it has to live outside of the codebase in a location of your choice.
 
-*NOTE:* WebDrivers must match the version of webBrowser on the PC.
+*NOTE:* WebDrivers **must** match the version of webBrowser on the PC.
 
 ### Create local.properties file
 
-- Create a file local.properties in the root of the project. It needs to contain the location to the binary of your WebDriver(s): `chromeDriverBinaryPath=/home/yury/.local/bin/chromedriver`. You can use local.properties.sample (which IS part of the repository) as a template.
-- It also needs to contain the location to the following folders:
-*For saving screenshots and ERROR_log file. Example: `screenshotsPath=C:/Users/yury/AutoScreenshots/`
+Create a file **local.properties** in the root of the project. It needs to:
+- Contain the location to the binary of your WebDriver(s). 
+_Example:_ `chromeDriverBinaryPath=/home/yury/.local/bin/chromedriver`. You can use local.properties.sample (which IS part of the repository) as a template.
+- Contain the location to folder with test screenshots and ERROR_log file:
+_Example:_ `screenshotsPath=C:/Users/yury/AutoScreenshots/`
 
-## How to run tests
+## How to run tests in Intellij
 
-1. Open testng.xml file in `src/test/java/com/cupidmedia/testing/webautomation/base`.
-2. Chose browser you want to run your test with. For this in `<test>` tag set `enabled="true"` for browser(s) you will use. Set enabled="false" for browser(s) you will NOT use.
-3. After choosing browser(s) you choose test(s) you want to run:
+1. Right click on one of the folowing files in folder `com/mobiquity/testing/webautomation/base/`
+    * 'chromeBrowserTest.xml' if you wish to run tests only with chrome browser
+    * 'firefoxBrowserTest.xml' if you wish to run tests only with firefox browser
+    * 'IEBrowserTest.xml' if you wish to run tests only with IE browser
+    * 'corssBrowserTest.xml' if you wish to run tests with all three browsers
+2. Select `Run '.../testng.xml'`
+
+You also can specify in the files above what test goups/classes you want to run you you dont wan to run all test suite.
     
-    3.1 For execution particular group of tests in tag `<test>/<groups>/<run>/<include>` specify the group you want to run. (For example: `<include name = "regression" />`)
+    * For execution particular group of tests in tag `<test>/<groups>/<run>/<include>` specify the group you want to run. (For example: `<include name = "login" />`)
     
-    3.2 For execution specified test(s) include only `<include name = "myTest" />` and assign `myTest` group to this test(s) in `tests` package. 
+    * For execution specified test(s) include only `<include name = "myTest" />` and assign `myTest` group to this test(s) in `tests` package. 
     
     Example: 
 
     ```@Test(groups = {"myTests"})```
     
      *After finish execution delete "myTest" group.
+     **NOTE:** If the test has 'dependsOnGroups' anotation it won't run before the specified group successfully complete
     
-    3.3 For execution all tests put in `<run>` tag `<include name="all">`
-    
-4. Change value in parameter `name="website"` if required. Default value is `https://www.ukrainedate.com`
+     *For execution all tests put in `<run>` tag `<include name="all">`
 
-5. Then start test via right click on testng.xml. Select `Run '.../testng.xml'`
+## How to run tests using command line
 
-## Process to create Allure report
-
-### Using Gradle command line
-
-1. Run `./gradlew clean`. This cleans up all build and output directories.
+1. cd to the project directory 'cd <your local path to the project>'
+1. Run `gradlew clean`. This cleans up all build and output directories.
 2. Run a defined test suite.
 
     Example:
 
-    ```./gradlew test -PdefaultSuite ```
+    * ```gradlew test -PchromeBrowserSuite``` to run tests with Chrome browser
+    * ```gradlew test -PfirefoxBrowserSuite``` to run tests with Firefox browser
+    * ```gradlew test -PIEBrowserSuite```       to run tests with IE browser
+    * ```gradlew test -PcrossBrowserSuite```     to run tests with all three browsers
+    
+    Run with '--info' to have all passing test steps and another useful information in your console!
+    
+    Example: **`gradlew test -PchromeBrowserSuite --info`**
 
-    (for the default test suite having two simple unit tests)
+## Process to create Allure report
 
+1. Run Allure report creation: `./gradlew allureReport`
     This will create test report information in the following directories:
-    To create another suite go to 'build.gradle' file
     ```
     build/allure-results
     build/reports
     build/test-results
     ```
-
-3. Run Allure report creation: `./gradlew allureReport`
-4. Serve up the Allure report in a browser: `./gradlew allureServe`
-
-### Gradle commands for visual testing tool `percy`
-
-Within project repository:
-1. To set PERCY_TOKEN environment variable:
-    * Windows: $ set PERCY_TOKEN=<your token here>
-    * Windows PoerShell: $env:PERCY_TOKEN = "your token here"
-    * Unix: $ export PERCY_TOKEN=<your token here>
-
-2. Do not forget to clean up before to run a new test: `./gradlew clean`. This cleans up all build and output directories.
-3. To run tests with Percy: `npx percy exec gradlew test -P<your suite name from build.gradle file>`
-
-
-
-
-
-
-
-
-
+2. Serve up the Allure report in a browser: `./gradlew allureServe`

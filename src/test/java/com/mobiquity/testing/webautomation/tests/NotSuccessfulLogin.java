@@ -8,7 +8,7 @@ import static com.mobiquity.testing.webautomation.base.CafetownsendSite.invalidP
 public class NotSuccessfulLogin extends TestBase {
 
     @Test(groups = {"login"}, description = "LOGIN page. Test login NOT successful if to enter incorrect password (different variations)")
-    public void testNotSuccessfulLogin() throws IOException, InterruptedException {
+    public void testNotSuccessfulLogin() throws IOException {
         System.out.println("*** LOGIN. NOT Successful ***");
         System.out.println("Step: Check login page is uploaded");
         cafetownsendSite.loginPage().CheckLoginPageUploaded();
