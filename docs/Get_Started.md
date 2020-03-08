@@ -37,7 +37,7 @@ This option assumes that you are familiar with GitHub and git clone so just do a
 
 ### Create local.properties file
 
-Create a file **local.properties** in the root of the project (https://github.com/yury-chislov/demo-project/blob/master/local.properties). It needs to:
+Create a file **local.properties** in the root of the project (https://github.com/yury-chislov/demo-project/blob/master/local.properties.sample). It needs to:
 - Contain the location to the binary of your WebDriver(s). 
 _Example:_ `chromeDriverBinaryPath=/home/yury/.local/bin/chromedriver`. You can use local.properties.sample (which IS part of the repository) as a template.
 - Contain the location to folder with test screenshots and ERROR_log file:
