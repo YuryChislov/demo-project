@@ -10,6 +10,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.logging.LogEntry;
 import org.openqa.selenium.logging.LogType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
@@ -25,6 +26,7 @@ public class TestBase {
     public static WebDriver webDriver;
     static Properties property;
     public CafetownsendSite cafetownsendSite;
+    private WebDriverWait wait;
     FileInputStream fs;
     public static String snapBrowserName; //this uses for screenshots and to detect what browser is being used in some methods
     public static String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime()); //this uses for screenshots and error logs
@@ -71,7 +73,7 @@ public class TestBase {
             snapBrowserName = "chrome";
             webDriver = new ChromeDriver();
         }
-        //wait = new WebDriverWait(webDriver, 30);
+        wait = new WebDriverWait(webDriver, 30);
         cafetownsendSite = new CafetownsendSite(webDriver);
         webDriver.manage().window().maximize();
         webDriver.get(website);

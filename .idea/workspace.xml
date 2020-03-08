@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6806a38-f79e-4906-8bda-a290b3f6f62c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/Introduction .md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/TestCases.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Get_Started.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Get_Started.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/base/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/pageobjects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/pageobjects/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/pageobjects/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/pageobjects/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/CreateEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/CreateEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/EditEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/EditEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/NotSuccessfulLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/NotSuccessfulLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/SuccessfulLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/SuccessfulLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -40,6 +57,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="web-automation" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="web-automation" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build setup" type="c8890929:TasksNode$1" />
               </path>
             </expand>
@@ -52,15 +75,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Get_Started.md">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+            <state relative-caret-position="-1117">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#checkIfFailed#0;class#TestBase#0" />
+                <element signature="method#tearDown#0;class#TestBase#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Get_Started.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -68,6 +106,62 @@
                 <caret line="6" column="133" selection-start-line="6" selection-start-column="133" selection-end-line="6" selection-end-column="133" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Introduction .md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="326">
+                <caret line="50" column="127" selection-start-line="50" selection-start-column="127" selection-end-line="50" selection-end-column="127" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/TestCases.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="901">
+                <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/pageobjects/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+              <folding>
+                <element signature="method#LoginPage#0;class#LoginPage#0" />
+                <element signature="n#!!doc;n#userNameBox#0;n#LoginPage#0" />
+                <element signature="n#!!doc;n#insertLoginCredentials#0;n#LoginPage#0" />
+                <element signature="method#insertLoginCredentials#0;class#LoginPage#0" />
+                <element signature="method#clickLoginButton#0;class#LoginPage#0" />
+                <element signature="method#logIn#0;class#LoginPage#0" />
+                <element signature="method#CheckLoginPageUploaded#0;class#LoginPage#0" />
+                <element signature="method#CheckLoginUnsuccessful#0;class#LoginPage#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/CafetownsendSite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="e#731#787#0" />
+                <element signature="e#1780#1828#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +191,7 @@
       <find>snapBrowserName</find>
       <find>theme</find>
       <find>Example</find>
+      <find>chrome</find>
     </findStrings>
     <replaceStrings>
       <replace>mobiquity</replace>
@@ -114,13 +209,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/tests/DeleteEmployee.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/CafetownsendSite.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/corssBrowserTest.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/pageobjects/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/tests/EditEmployee.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/tests/CreateEmployee.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/tests/SuccessfulLogin.java" />
-        <option value="$PROJECT_DIR$/local.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/pageobjects/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/firefoxBrowserTest.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/IEBrowserTest.xml" />
@@ -131,11 +223,16 @@
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/tests/NotSuccessfulLogin.java" />
         <option value="$PROJECT_DIR$/docs/Get_Started.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/corssBrowserTest.xml" />
+        <option value="$PROJECT_DIR$/local.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/TestBase.java" />
+        <option value="$PROJECT_DIR$/docs/Introduction .md" />
+        <option value="$PROJECT_DIR$/docs/TestCases.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="175" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="180" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -146,7 +243,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,12 +323,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583654114562" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583664774205" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../1" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -261,7 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.automated-testing-gradle-master [wrapper]">
+  <component name="RunManager" selected="TestNG.D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/firefoxBrowserTest.xml">
     <configuration name="automated-testing-gradle-master [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -280,6 +377,16 @@
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
+    </configuration>
+    <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/IEBrowserTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.mobiquity.testing.web-automation.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/IEBrowserTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.cupidmedia.testing.web-automation.test" />
@@ -301,26 +408,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.cupidmedia.testing.web-automation.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/testng.xml" />
+    <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/firefoxBrowserTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.mobiquity.testing.web-automation.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/firefoxBrowserTest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.cupidmedia.testing.web-automation.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mobiquity.testing.webautomation.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mobiquity.testing.webautomation.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.mobiquity.testing.webautomation.tests.SuccessfulLogin" />
       <properties />
       <listeners />
       <method v="2">
@@ -329,11 +420,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.automated-testing-gradle-master [wrapper]" />
-        <item itemvalue="TestNG.D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/corssBrowserTest.xml" />
+        <item itemvalue="TestNG.D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/firefoxBrowserTest.xml" />
+        <item itemvalue="TestNG.D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/IEBrowserTest.xml" />
         <item itemvalue="TestNG.D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" />
-        <item itemvalue="TestNG.D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/testng.xml" />
-        <item itemvalue="TestNG.SuccessfulLogin" />
+        <item itemvalue="TestNG.D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/corssBrowserTest.xml" />
+        <item itemvalue="Gradle.automated-testing-gradle-master [wrapper]" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +440,8 @@
       <updated>1583315498039</updated>
       <workItem from="1583315507299" duration="4667000" />
       <workItem from="1583321548710" duration="50302000" />
-      <workItem from="1583636720429" duration="15174000" />
+      <workItem from="1583636720429" duration="23138000" />
+      <workItem from="1583662294602" duration="2473000" />
     </task>
     <task id="LOCAL-00001" summary="added README file">
       <created>1583649675934</created>
@@ -400,49 +492,56 @@
       <option name="project" value="LOCAL" />
       <updated>1583653692430</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="deleted accidentally added local.properties file">
+      <created>1583654161521</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583654161521</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_chromeBrowserTest_xml - 2020.03.08 at 11h 58m 47s.xml">
-      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_chromeBrowserTest_xml - 2020.03.08 at 12h 05m 13s.xml">
-      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_chromeBrowserTest_xml - 2020.03.08 at 12h 09m 18s.xml">
-      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_chromeBrowserTest_xml - 2020.03.08 at 12h 11m 02s.xml">
-      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_chromeBrowserTest_xml - 2020.03.08 at 12h 14m 01s.xml">
-      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_chromeBrowserTest_xml - 2020.03.08 at 12h 14m 42s.xml">
-      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_chromeBrowserTest_xml - 2020.03.08 at 12h 18m 52s.xml">
-      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_corssBrowserTest_xml - 2020.03.08 at 12h 19m 49s.xml">
+    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_corssBrowserTest_xml - 2020.03.08 at 19h 49m 43s.xml">
       <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/corssBrowserTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_corssBrowserTest_xml - 2020.03.08 at 12h 21m 04s.xml">
-      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/corssBrowserTest.xml" configurationId="TestNG" />
+    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_chromeBrowserTest_xml - 2020.03.08 at 19h 54m 42s.xml">
+      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_corssBrowserTest_xml - 2020.03.08 at 12h 24m 09s.xml">
-      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/corssBrowserTest.xml" configurationId="TestNG" />
+    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_chromeBrowserTest_xml - 2020.03.08 at 19h 59m 18s.xml">
+      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_chromeBrowserTest_xml - 2020.03.08 at 20h 04m 15s.xml">
+      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_chromeBrowserTest_xml - 2020.03.08 at 20h 12m 24s.xml">
+      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_IEBrowserTest_xml - 2020.03.08 at 20h 18m 18s.xml">
+      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/IEBrowserTest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_chromeBrowserTest_xml - 2020.03.08 at 20h 18m 38s.xml">
+      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_IEBrowserTest_xml - 2020.03.08 at 20h 25m 36s.xml">
+      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/IEBrowserTest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_firefoxBrowserTest_xml - 2020.03.08 at 20h 27m 57s.xml">
+      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/firefoxBrowserTest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Mine_YURY_Yury_Work_Jobs_Projects_automated-testing-gradle-master_src_test_java_com_mobiquity_testing_webautomation_base_firefoxBrowserTest_xml - 2020.03.08 at 20h 31m 48s.xml">
+      <configuration name="D:/Mine/YURY/Yury_Work/Jobs/Projects/automated-testing-gradle-master/src/test/java/com/mobiquity/testing/webautomation/base/firefoxBrowserTest.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70143000" />
+    <option name="totallyTimeSpent" value="80580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21677852" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21946308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -451,15 +550,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.27903682" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.27478755" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18838526" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18271954" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.41218132" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.27903682" />
       <window_info anchor="bottom" id="Build" order="12" weight="0.23796034" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -473,7 +572,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Gradle" order="9" visible="true" weight="0.14026846" />
+      <window_info anchor="right" id="Gradle" order="9" weight="0.14026846" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +581,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added README file" />
     <MESSAGE value="editing README file" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing README file" />
+    <MESSAGE value="deleted accidentally added local.properties file" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted accidentally added local.properties file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_windows/laf.xml">
@@ -561,22 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/CafetownsendSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc;n#loginPageMobile#0;n#CafetownsendSite#0" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#790#846#0" />
-            <element signature="e#1547#1595#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/pageobjects/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -628,31 +712,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/.percy.yml" />
-    <entry file="file://$PROJECT_DIR$/bitbucket-linky.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bitbucket-linky.xml" />
+    <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/pageobjects/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-          <folding>
-            <element signature="method#LoginPage#0;class#LoginPage#0" />
-            <element signature="n#!!doc;n#userNameBox#0;n#LoginPage#0" />
-            <element signature="n#!!doc;n#insertLoginCredentials#0;n#LoginPage#0" />
-            <element signature="method#insertLoginCredentials#0;class#LoginPage#0" />
-            <element signature="method#clickLoginButton#0;class#LoginPage#0" />
-            <element signature="method#logIn#0;class#LoginPage#0" />
-            <element signature="method#CheckLoginPageUploaded#0;class#LoginPage#0" />
-            <element signature="method#CheckLoginUnsuccessful#0;class#LoginPage#0" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/firefoxBrowserTest.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -672,17 +735,6 @@
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="n#test#1;n#suite#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="150" column="62" selection-start-line="150" selection-start-column="62" selection-end-line="150" selection-end-column="62" />
-          <folding>
-            <element signature="method#checkIfFailed#0;class#TestBase#0" />
-            <element signature="method#tearDown#0;class#TestBase#0" />
           </folding>
         </state>
       </provider>
@@ -713,13 +765,6 @@
     <entry file="file://$PROJECT_DIR$/ide.general.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -730,26 +775,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/corssBrowserTest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding>
-            <element signature="n#test#0;n#suite#0;n#!!top" />
-            <element signature="n#run#0;n#groups#0;n#test#0;n#suite#0;n#!!top" />
-            <element signature="n#classes#0;n#test#0;n#suite#0;n#!!top" />
-            <element signature="n#test#1;n#suite#0;n#!!top" />
-            <element signature="n#run#0;n#groups#0;n#test#1;n#suite#0;n#!!top" />
-            <element signature="n#classes#0;n#test#1;n#suite#0;n#!!top" />
-            <element signature="n#run#0;n#groups#0;n#test#2;n#suite#0;n#!!top" />
-            <element signature="n#classes#0;n#test#2;n#suite#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vcs.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/tests/NotSuccessfulLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -787,27 +813,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="n#test#0;n#suite#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Get_Started.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local.properties.sample">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/corssBrowserTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <element signature="n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#run#0;n#groups#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#test#1;n#suite#0;n#!!top" />
+            <element signature="n#run#0;n#groups#0;n#test#1;n#suite#0;n#!!top" />
+            <element signature="n#classes#0;n#test#1;n#suite#0;n#!!top" />
+            <element signature="n#test#2;n#suite#0;n#!!top" />
+            <element signature="n#run#0;n#groups#0;n#test#2;n#suite#0;n#!!top" />
+            <element signature="n#classes#0;n#test#2;n#suite#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="47" />
+          <folding>
+            <element signature="n#groups#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#define#0;n#groups#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#classes#0;n#test#0;n#suite#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -816,6 +862,79 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="102">
             <caret line="6" column="133" selection-start-line="6" selection-start-column="133" selection-end-line="6" selection-end-column="133" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/pageobjects/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding>
+            <element signature="method#LoginPage#0;class#LoginPage#0" />
+            <element signature="n#!!doc;n#userNameBox#0;n#LoginPage#0" />
+            <element signature="n#!!doc;n#insertLoginCredentials#0;n#LoginPage#0" />
+            <element signature="method#insertLoginCredentials#0;class#LoginPage#0" />
+            <element signature="method#clickLoginButton#0;class#LoginPage#0" />
+            <element signature="method#logIn#0;class#LoginPage#0" />
+            <element signature="method#CheckLoginPageUploaded#0;class#LoginPage#0" />
+            <element signature="method#CheckLoginUnsuccessful#0;class#LoginPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/CafetownsendSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#731#787#0" />
+            <element signature="e#1780#1828#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Introduction .md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="326">
+            <caret line="50" column="127" selection-start-line="50" selection-start-column="127" selection-end-line="50" selection-end-column="127" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Get_Started.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1117">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#checkIfFailed#0;class#TestBase#0" />
+            <element signature="method#tearDown#0;class#TestBase#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/TestCases.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="901">
+            <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>

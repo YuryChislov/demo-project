@@ -33,6 +33,7 @@ This option assumes that you are familiar with GitHub and git clone so just do a
 - For testing with Firefox browser get geckodriver for your platform from: https://github.com/mozilla/geckodriver/releases . Do *NOT* commit this to the repository, it has to live outside of the codebase in a location of your choice.
 
 *NOTE:* WebDrivers **must** match the version of webBrowser on the PC.
+        To successfully run test with IE browser your IE web browser security setting has to be changed to low security level and " enable protected mode" should be unticked.
 
 ### Create local.properties file
 
@@ -85,6 +86,8 @@ You also can specify in the files above what test goups/classes you want to run 
     Run with '--info' to have all passing test steps and another useful information in your console!
     
     _Example:_ **`gradlew test -PchromeBrowserSuite --info`**
+    
+    *NOTE* The first time you run the test suite from the console, it may take some time, because it will download and compile all the necessary components.
 
 ## Process to create Allure report
 
