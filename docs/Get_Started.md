@@ -36,7 +36,7 @@ This option assumes that you are familiar with GitHub and git clone so just do a
 
 ### Create local.properties file
 
-Create a file **local.properties** in the root of the project. It needs to:
+Create a file **local.properties** in the root of the project (https://github.com/yury-chislov/demo-project/blob/master/local.properties). It needs to:
 - Contain the location to the binary of your WebDriver(s). 
 _Example:_ `chromeDriverBinaryPath=/home/yury/.local/bin/chromedriver`. You can use local.properties.sample (which IS part of the repository) as a template.
 - Contain the location to folder with test screenshots and ERROR_log file:
@@ -45,26 +45,26 @@ _Example:_ `screenshotsPath=C:/Users/yury/AutoScreenshots/`
 ## How to run tests in Intellij
 
 1. Right click on one of the folowing files in folder `com/mobiquity/testing/webautomation/base/`
-    * 'chromeBrowserTest.xml' if you wish to run tests only with chrome browser
-    * 'firefoxBrowserTest.xml' if you wish to run tests only with firefox browser
-    * 'IEBrowserTest.xml' if you wish to run tests only with IE browser
-    * 'corssBrowserTest.xml' if you wish to run tests with all three browsers
-2. Select `Run '.../testng.xml'`
+    * `chromeBrowserTest.xml` if you wish to run tests only with chrome browser
+    * `firefoxBrowserTest.xml` if you wish to run tests only with firefox browser
+    * `IEBrowserTest.xml` if you wish to run tests only with IE browser
+    * `corssBrowserTest.xml` if you wish to run tests with all three browsers
+2. Select `Run '.../...BrowserTest.xml'`
 
 You also can specify in the files above what test goups/classes you want to run you you dont wan to run all test suite.
     
-    * For execution particular group of tests in tag `<test>/<groups>/<run>/<include>` specify the group you want to run. (For example: `<include name = "login" />`)
+   For execution particular group of tests in tag `<test>/<groups>/<run>/<include>` specify the group you want to run. (For example: `<include name = "login" />`)
     
-    * For execution specified test(s) include only `<include name = "myTest" />` and assign `myTest` group to this test(s) in `tests` package. 
+   For execution specified test(s) include only `<include name = "myTest" />` and assign `myTest` group to this test(s) in `tests` package. 
     
-    Example: 
+   Example: 
 
-    ```@Test(groups = {"myTests"})```
+   `@Test(groups = {"myTests"})`
     
-     *After finish execution delete "myTest" group.
-     **NOTE:** If the test has 'dependsOnGroups' anotation it won't run before the specified group successfully complete
+   After finish execution delete "myTest" group.
+     **NOTE:** If the test has 'dependsOnGroups' annotation it won't run before the specified group successfully complete
     
-     *For execution all tests put in `<run>` tag `<include name="all">`
+   For execution all tests put in `<run>` tag `<include name="all">`
 
 ## How to run tests using command line
 
