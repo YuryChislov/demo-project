@@ -57,25 +57,25 @@ You also can specify in the files above what test goups/classes you want to run 
     
    For execution specified test(s) include only `<include name = "myTest" />` and assign `myTest` group to this test(s) in `tests` package. 
     
-   Example: 
+   _Example:_ 
    `@Test(groups = {"myTests"})`
     
    After finish execution delete "myTest" group.
+   
+   *NOTE:* If the test has `dependsOnGroups` annotation it won't run before the specified group successfully complete
     
-   **NOTE:** If the test has `dependsOnGroups` annotation it won't run before the specified group successfully complete
-    
-   Example:
+   _Example:_
    `@Test(groups = {"editEmployee", "mainPage"}, description = "Main page. Test Edit Employee from the list", dependsOnGroups = "createEmployee")` has **'dependsOnGroups = "createEmployee"'** and will be executed after test which belongs to group `createEmployee`
     
    For execution all tests put in `<run>` tag `<include name="all">`
 
 ## How to run tests using command line
 
-1. cd to the project directory 'cd <your local path to the project>'
+1. cd to the project directory `cd <your local path to the project>`
 1. Run `gradlew clean`. This cleans up all build and output directories.
 2. Run a defined test suite.
 
-    Example:
+    _Example:_
 
     * ```gradlew test -PchromeBrowserSuite``` to run tests with Chrome browser
     * ```gradlew test -PfirefoxBrowserSuite``` to run tests with Firefox browser
@@ -84,7 +84,7 @@ You also can specify in the files above what test goups/classes you want to run 
     
     Run with '--info' to have all passing test steps and another useful information in your console!
     
-    Example: **`gradlew test -PchromeBrowserSuite --info`**
+    _Example:_ **`gradlew test -PchromeBrowserSuite --info`**
 
 ## Process to create Allure report
 
