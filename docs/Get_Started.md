@@ -38,7 +38,7 @@ This option assumes that you are familiar with GitHub and git clone so just do a
 
 - Create a file local.properties in the root of the project. It needs to contain the location to the binary of your WebDriver(s): `chromeDriverBinaryPath=/home/yury/.local/bin/chromedriver`. You can use local.properties.sample (which IS part of the repository) as a template.
 - It also needs to contain the location to the following folders:
-*For saving screenshots and ERROR_log file. Example: `screenshotsPath=C:/Users/yury/AutoScreenshots/`   
+*For saving screenshots and ERROR_log file. Example: `screenshotsPath=C:/Users/yury/AutoScreenshots/`
 
 ## How to run tests
 
