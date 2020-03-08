@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6806a38-f79e-4906-8bda-a290b3f6f62c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Introduction .md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/TestCases.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Get_Started.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Get_Started.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/base/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/pageobjects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/pageobjects/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/pageobjects/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/pageobjects/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/CreateEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/CreateEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/EditEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/EditEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/NotSuccessfulLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/NotSuccessfulLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/SuccessfulLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/mobiquity/testing/webautomation/tests/SuccessfulLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Introduction .md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Introduction .md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -89,33 +74,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Get_Started.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="102">
-                <caret line="6" column="133" selection-start-line="6" selection-start-column="133" selection-end-line="6" selection-end-column="133" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Introduction .md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="326">
-                <caret line="50" column="127" selection-start-line="50" selection-start-column="127" selection-end-line="50" selection-end-column="127" />
+              <first_editor relative-caret-position="136">
+                <caret line="8" selection-start-line="8" selection-end-line="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -123,6 +86,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/Introduction .md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="293">
+                <caret line="50" column="143" selection-start-line="50" selection-start-column="143" selection-end-line="50" selection-end-column="143" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/TestCases.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -219,15 +194,15 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/local.properties.sample" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/chromeBrowserTest.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/tests/NotSuccessfulLogin.java" />
         <option value="$PROJECT_DIR$/docs/Get_Started.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/corssBrowserTest.xml" />
         <option value="$PROJECT_DIR$/local.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/base/TestBase.java" />
-        <option value="$PROJECT_DIR$/docs/Introduction .md" />
         <option value="$PROJECT_DIR$/docs/TestCases.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/docs/Introduction .md" />
       </list>
     </option>
   </component>
@@ -329,7 +304,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583664975742" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583665003255" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../1" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -441,7 +416,7 @@
       <workItem from="1583315507299" duration="4667000" />
       <workItem from="1583321548710" duration="50302000" />
       <workItem from="1583636720429" duration="23138000" />
-      <workItem from="1583662294602" duration="2473000" />
+      <workItem from="1583662294602" duration="3032000" />
     </task>
     <task id="LOCAL-00001" summary="added README file">
       <created>1583649675934</created>
@@ -499,7 +474,28 @@
       <option name="project" value="LOCAL" />
       <updated>1583654161521</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added documentation">
+      <created>1583664824128</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583664824128</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added documentation">
+      <created>1583664972783</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583664972783</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added documentation">
+      <created>1583664994468</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583664994468</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -535,7 +531,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80580000" />
+    <option name="totallyTimeSpent" value="81139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -550,7 +546,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.27478755" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.33994335" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.18838526" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -582,7 +578,8 @@
     <MESSAGE value="added README file" />
     <MESSAGE value="editing README file" />
     <MESSAGE value="deleted accidentally added local.properties file" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted accidentally added local.properties file" />
+    <MESSAGE value="added documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added documentation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_windows/laf.xml">
@@ -857,16 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="102">
-            <caret line="6" column="133" selection-start-line="6" selection-start-column="133" selection-end-line="6" selection-end-column="133" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mobiquity/testing/webautomation/pageobjects/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -895,11 +882,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Introduction .md">
+    <entry file="file://$PROJECT_DIR$/docs/TestCases.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="326">
-            <caret line="50" column="127" selection-start-line="50" selection-start-column="127" selection-end-line="50" selection-end-column="127" />
+          <first_editor relative-caret-position="901">
+            <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor />
         </state>
@@ -908,7 +905,9 @@
     <entry file="file://$PROJECT_DIR$/docs/Get_Started.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="144">
+            <caret line="29" column="75" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="75" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
@@ -930,11 +929,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/TestCases.md">
+    <entry file="file://$PROJECT_DIR$/docs/Introduction .md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="901">
-            <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+          <first_editor relative-caret-position="293">
+            <caret line="50" column="143" selection-start-line="50" selection-start-column="143" selection-end-line="50" selection-end-column="143" />
           </first_editor>
           <second_editor />
         </state>

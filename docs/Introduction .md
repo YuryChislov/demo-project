@@ -48,6 +48,6 @@ Since I was limited in time when I was implementing this project, and I did not 
 
 The last three test cases are dependent to each other. "Edit Employee" test will run only if "Create Employee" test was successful and created the instance for the second test. And "Delete Employee" test will run only if "Edit employee" test complete successfully. This helps to avoid flooding Data Base and makes tests independent on current data on the website.
 
-Please find out more information about test cases here: https://github.com/yury-chislov/demo-project/blob/master/docs/TestCases.md
+Please find out more information about test cases here: [TestCases](https://github.com/yury-chislov/demo-project/blob/master/docs/TestCases.md)
 
 
