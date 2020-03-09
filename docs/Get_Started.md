@@ -63,7 +63,7 @@ You also can specify in the files above what test goups/classes you want to run 
     
    After finish execution delete "myTest" group.
    
-   *NOTE:* If the test has `dependsOnGroups` annotation it won't run before the specified group successfully complete
+*NOTE:* If the test has `dependsOnGroups` annotation it won't run before the specified group successfully complete
     
    _Example:_
    `@Test(groups = {"editEmployee", "mainPage"}, description = "Main page. Test Edit Employee from the list", dependsOnGroups = "createEmployee")` has **'dependsOnGroups = "createEmployee"'** and will be executed after test which belongs to group `createEmployee`
@@ -78,12 +78,14 @@ You also can specify in the files above what test goups/classes you want to run 
 
     _Example:_
 
-    * ```gradlew test -PchromeBrowserSuite``` to run tests with Chrome browser
-    * ```gradlew test -PfirefoxBrowserSuite``` to run tests with Firefox browser
-    * ```gradlew test -PIEBrowserSuite```       to run tests with IE browser
-    * ```gradlew test -PcrossBrowserSuite```     to run tests with all three browsers
+    * `./gradlew test -PchromeBrowserSuite` to run tests with Chrome browser
+    * `./gradlew test -PfirefoxBrowserSuite` to run tests with Firefox browser
+    * `./gradlew test -PIEBrowserSuite`       to run tests with IE browser
+    * `./gradlew test -PcrossBrowserSuite`     to run tests with all three browsers
     
-    Run with '--info' to have all passing test steps and another useful information in your console!
+    It is highly recomended to run with `--info` to have all passing test steps and another useful information in your console!
+ 
+ *NOTE* For Windows console gradlew command runs without `./`
     
     _Example:_ **`gradlew test -PchromeBrowserSuite --info`**
     
