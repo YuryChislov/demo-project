@@ -33,7 +33,7 @@ All test steps are described using test annotations and output to the console. T
 #### Main test features
 ##### Error logging
 In this project I created the method which checks the browser console to errors. From my experience it happens often when the auto test passed and zero errors detected, however if you open browser console you can see logged errors that might be critical. Not necessarily these errors related to running tests but they might be very valuable to report or look into them.
-After running my test the system logged the console error I would probably look into in real case.
+After running these tests by myself the system logged the console error I would probably look into in real case.
 ##### Screenshots
 Also I created the method which allows to easily make the screenshots when requires and it will make the screenshot automatically in failure case. Error screenshots allow to find the issue much quicker.  
      
